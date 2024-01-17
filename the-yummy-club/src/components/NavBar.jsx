@@ -19,7 +19,7 @@ const Navbar = () => {
           id=""
           placeholder="Search here"
           autoComplete="off"
-          // onChange={(e) => dispatch(setSearch(e.target.value))}
+          onChange={(e) => dispatch(setSearch(e.target.value))}
           className="p-3 border border-gray-400 text-sm rounded-lg outline-none w-full lg:w-[25vw]"
         />
       </div>
