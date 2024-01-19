@@ -24,4 +24,4 @@ const FoodItems = () => {
   )
 }
 
-export default FoodItems
+export default FoodItems;
