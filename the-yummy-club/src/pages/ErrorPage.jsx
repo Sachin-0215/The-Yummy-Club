@@ -2,8 +2,8 @@ import React from 'react'
 
 const ErrorPage = () => {
   return (
-    <div>
-      Weong page
+    <div className='border-black text-yellow-100 '>
+      Wrong page
     </div>
   )
 }
