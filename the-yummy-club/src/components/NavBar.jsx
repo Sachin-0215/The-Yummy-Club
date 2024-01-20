@@ -1,9 +1,9 @@
 import React from "react";
-// import { useDispatch } from "react-redux";
-// import { setSearch } from "../redux/slices/SearchSlice";
+import { useDispatch } from "react-redux";
+import { setSearch } from "../redux/slices/SearchSlice";
 
 const Navbar = () => {
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
   return (
     <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10"  >
       <div>

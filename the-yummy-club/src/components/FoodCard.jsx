@@ -16,7 +16,7 @@ const FoodCard = ({ id, img, name, price, descr, rating,handleToast }) => {
         <span className='text-green-500 '>₹{price}</span>
       </div>
 
-      <p className='text-sm font-normal'>  { descr } </p>
+      <p className='text-sm font-normal'>  { descr.slice(0,80) }.... </p>
       <div className='flex justify-between'>
           <span className='flex justify-center items-center'><FaStar className='mr-1 text-yellow-400'/> {rating}</span>
         <button onClick={() => {
