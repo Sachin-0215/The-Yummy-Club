@@ -14,6 +14,7 @@ const Cart = () => {
     (total, item) => total + item.qty * item.price, 0);
 
   const navigate = useNavigate();
+  
   return (
     <>
       <div
