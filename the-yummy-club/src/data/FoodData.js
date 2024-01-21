@@ -179,6 +179,51 @@ const FoodData = [
       category: "Snacks",
       rating: 4.8,
   },
+  {
+    id: 21,
+    img: "https://tse3.mm.bing.net/th?id=OIP.-UqgDOYLliPaHQEonAmAHQHaEK&pid=Api&P=0&h=180",
+    name: "Burger with Fries",
+    price: 110,
+    desc: "Relish the smooth and flavorful hummus accompanied by a variety of fresh vegetable sticks and pita bread. A nutritious and satisfying option for a light and refreshing snack.",
+    category: "Snacks",
+    rating : 4.0
+  },
+  {
+    id: 22,
+    img: "https://www.pngall.com/wp-content/uploads/8/Food-Recipe-PNG-Clipart.png",
+    name: "Veg Sandwitch",
+    price: 60,
+    desc: "Relish the smooth and flavorful hummus accompanied by a variety of fresh vegetable sticks and pita bread. A nutritious and satisfying option for a light and refreshing snack.",
+    category: "Snacks",
+    rating : 4.5
+  },
+  {
+    id: 23,
+    img: "https://img.freepik.com/free-photo/biscuit-with-pineapple-jam_1339-2613.jpg?t=st=1705840156~exp=1705840756~hmac=3b539d062b7c1cf47beaa743dcf753c21b0ddef7e543186a9ba055bf6e49dbf2",
+    name: "Biscuit With Pineapple Jam",
+    price: 30,
+    desc: "Relish the smooth and flavorful hummus accompanied by a variety of fresh vegetable sticks and pita bread. A nutritious and satisfying option for a light and refreshing snack.",
+    category: "Snacks",
+    rating : 4.5
+  },
+  {
+    id: 24,
+    img: "https://img.freepik.com/premium-photo/kimchi-korean-dish-spicy-fermented-vegetables_51524-25832.jpg?w=996",
+    name: "Kimchi Korean Spicy dish",
+    price: 110,
+    desc: "Relish the smooth and flavorful hummus accompanied by a variety of fresh vegetable sticks and pita bread. A nutritious and satisfying option for a light and refreshing snack.",
+    category: "Lunch",
+    rating: 4.9
+  },
+  {
+    id: 25,
+    img: "https://img.freepik.com/premium-photo/kimchi-korean-dish-spicy-fermented-vegetables_51524-25832.jpg?w=996",
+    name: "Kimchi Korean Spicy dish",
+    price: 110,
+    desc: "Relish the smooth and flavorful hummus accompanied by a variety of fresh vegetable sticks and pita bread. A nutritious and satisfying option for a light and refreshing snack.",
+    category: "Lunch",
+    rating: 4.9
+  },
     
   ];
   export default FoodData;
