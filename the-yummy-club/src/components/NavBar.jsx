@@ -1,9 +1,13 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { setSearch } from "../redux/slices/SearchSlice";
+import { Button } from "../styles/Button";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
+
   const dispatch = useDispatch();
+  const { loginWithRedirect,logout,isAuthenticated } = useAuth0();
   return (
     <nav className="flex flex-col lg:flex-row justify-between py-3 mx-6 mb-10"  >
       <div>
@@ -23,6 +27,18 @@ const Navbar = () => {
           className="p-3 border border-gray-400 text-sm rounded-lg outline-none w-full lg:w-[25vw]"
         />
       </div>
+      {isAuthenticated ? (
+        <div>
+          <Button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+            Log Out
+          </Button>
+        </div>
+      )
+        :
+        <div>
+            <Button onClick={() => loginWithRedirect()}>Log In</Button>
+        </div>
+      }
     </nav>
   );
 };
