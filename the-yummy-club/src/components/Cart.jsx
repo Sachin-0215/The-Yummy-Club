@@ -18,7 +18,7 @@ const Cart = () => {
   return (
     <>
       <div
-        className={`fixed right-0 top-0 w-full lg:w-[20vw] h-full p-5 bg-white mb-3 ${activeCart ? "translate-x-0" : "translate-x-full"} transition-all duration-500 z-50`}
+        className={`fixed  right-0 top-0 w-full lg:w-[20vw] h-full scroll-m-1 p-5 bg-white mb-3 ${activeCart ? "translate-x-0" : "translate-x-full"} transition-all duration-500 z-50`}
       >
         <div className="flex justify-between items-center my-3">
           <span className="text-xl font-bold text-gray-800">My Order</span>

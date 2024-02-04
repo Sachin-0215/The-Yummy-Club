@@ -1,0 +1,3 @@
+we are using redux toolkit for add to cart functionality
+
+npm i react-hot-toast
